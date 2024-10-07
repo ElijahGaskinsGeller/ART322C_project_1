@@ -1,7 +1,7 @@
 
 
 //import * as THREE from '../node_modules/three/build/three.module.js'../node_modules/three/build/three.module.js;
-import * as THREE from './js/three.module.js';
+import * as THREE from './three.module.js';
 
 
 function WindowScrollNormalPosition() {
