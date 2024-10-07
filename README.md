@@ -1,1 +1,0 @@
-# ART322C_project_1
