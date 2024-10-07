@@ -60,7 +60,7 @@ document.getElementById("container").appendChild(renderer.domElement);
 //document.body.appendChild(renderer.domElement);
 
 
-let layerTexture_0 = new THREE.TextureLoader().load('./fg.png');
+let layerTexture_0 = new THREE.TextureLoader().load('.js/fg.png');
 layerTexture_0.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_0 = new THREE.SpriteMaterial({ map: layerTexture_0 });
 let layer_0 = new THREE.Sprite(layerMaterial_0);
@@ -72,7 +72,7 @@ let layerStart_0 = -400;
 let layerEnd_0 = 0;
 
 
-let layerTexture_1 = new THREE.TextureLoader().load('./band_0.png');
+let layerTexture_1 = new THREE.TextureLoader().load('./js/band_0.png');
 layerTexture_1.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_1 = new THREE.SpriteMaterial({ map: layerTexture_1 });
 let layer_1 = new THREE.Sprite(layerMaterial_1);
@@ -84,7 +84,7 @@ let layerStart_1 = -1200;
 let layerEnd_1 = 0;
 
 
-let layerTexture_2 = new THREE.TextureLoader().load('./band_1.png');
+let layerTexture_2 = new THREE.TextureLoader().load('./js/band_1.png');
 layerTexture_2.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_2 = new THREE.SpriteMaterial({ map: layerTexture_2 });
 let layer_2 = new THREE.Sprite(layerMaterial_2);
@@ -96,7 +96,7 @@ let layerStart_2 = -900;
 let layerEnd_2 = 0;
 
 
-let layerTexture_3 = new THREE.TextureLoader().load('./band_2.png');
+let layerTexture_3 = new THREE.TextureLoader().load('./js/band_2.png');
 layerTexture_3.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_3 = new THREE.SpriteMaterial({ map: layerTexture_3 });
 let layer_3 = new THREE.Sprite(layerMaterial_3);
@@ -109,7 +109,7 @@ let layerStart_3 = layer_3.position.y - 600;
 let layerEnd_3 = layer_3.position.y;
 
 
-let layerTexture_4 = new THREE.TextureLoader().load('./band_3.png');
+let layerTexture_4 = new THREE.TextureLoader().load('./js/band_3.png');
 layerTexture_4.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_4 = new THREE.SpriteMaterial({ map: layerTexture_4 });
 let layer_4 = new THREE.Sprite(layerMaterial_4);
@@ -121,7 +121,7 @@ layer_4.position.y = 800;
 let layerStart_4 = layer_4.position.y - 300;
 let layerEnd_4 = layer_4.position.y;
 
-let layerTexture_5 = new THREE.TextureLoader().load('./band_4.png');
+let layerTexture_5 = new THREE.TextureLoader().load('./js/band_4.png');
 layerTexture_5.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_5 = new THREE.SpriteMaterial({ map: layerTexture_5 });
 let layer_5 = new THREE.Sprite(layerMaterial_5);
