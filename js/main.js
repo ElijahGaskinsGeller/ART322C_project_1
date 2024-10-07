@@ -1,6 +1,6 @@
 
 
-import * as THREE from '../node_modules/three/src/Three.js';
+import * as THREE from '../node_modules/three/build/three.module.js';
 
 
 function WindowScrollNormalPosition() {
@@ -60,7 +60,7 @@ document.getElementById("container").appendChild(renderer.domElement);
 //document.body.appendChild(renderer.domElement);
 
 
-let layerTexture_0 = new THREE.TextureLoader().load('.js/fg.png');
+let layerTexture_0 = new THREE.TextureLoader().load('./js/fg.png');
 layerTexture_0.colorSpace = THREE.SRGBColorSpace;
 let layerMaterial_0 = new THREE.SpriteMaterial({ map: layerTexture_0 });
 let layer_0 = new THREE.Sprite(layerMaterial_0);
